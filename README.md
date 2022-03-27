@@ -1,6 +1,11 @@
-# PCS_demo
+# PCS
 
 This is a demonstration of post-processing PCS.
+
+
+
+# PCS toolkit
+
 
 ## Reference:
 ### SEGAN: 
@@ -15,6 +20,7 @@ arXiv: https://arxiv.org/pdf/1703.09452.pdf
 ```
 
 ### Wiener filter:
+wikipedia: https://en.wikipedia.org/wiki/Wiener_filter
 ```
 @article{brown1997introduction,
   title={Introduction to random signals and applied Kalman filtering: with MATLAB exercises and solutions},
