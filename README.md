@@ -2,7 +2,7 @@
 
 This is a demonstration of post-processing PCS.
 
-![alt text](https://github.com/RoyChao19477/PCS/blob/main/imgs/Post-processing%20PCS.png?raw=true)
+![alt text](https://github.com/RoyChao19477/PCS/blob/main/imgs/Post-processing%20PCS.png?)
 
 # PCS toolkit
 
