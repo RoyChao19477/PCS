@@ -2,9 +2,8 @@
 
 This is a demonstration of post-processing PCS.
 
-![alt text](https://github.com/RoyChao19477/PCS/blob/main/imgs/Post-processing%20PCS.png | width=100)
 
-<img src="https://github.com/RoyChao19477/PCS/blob/main/imgs/Post-processing%20PCS.png" width="324" height="324">height
+<img src="https://github.com/RoyChao19477/PCS/blob/main/imgs/Post-processing%20PCS.png" height="324">height
 
 # PCS toolkit
 
