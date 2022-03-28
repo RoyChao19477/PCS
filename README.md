@@ -3,7 +3,7 @@
 This is a demonstration of post-processing PCS.
 
 
-<img src="https://github.com/RoyChao19477/PCS/blob/main/imgs/Post-processing%20PCS.png" height="324">height
+<img src="https://github.com/RoyChao19477/PCS/blob/main/imgs/Post-processing%20PCS.png" height="324">
 
 # PCS toolkit
 
