@@ -1,0 +1,9 @@
+clear;
+indir='C:\Users\yunfan\Desktop\Lu-san\Data\Test\DAE_enhanced\SSN\20dB'; % 輸入 enhancement data 資料夾
+in_filter='\.wav'; % 副檔名
+in1dir='C:\Users\yunfan\Desktop\Lu-san\Data\Test\noisy_normalized\SSN\20db'; % 輸入 noisy data 資料夾
+in1_filter='\.wav';      % 副檔名                                                       
+speech='C:\Users\yunfan\Desktop\Lu-san\Data\Test\clean_normalized';    % clean data 
+speech_filter='\.wav';      % 副檔名
+len=160; % frame length
+dr_ssnr(indir,in_filter,in1dir,in1_filter,speech,speech_filter,len)

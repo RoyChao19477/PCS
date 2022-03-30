@@ -1,0 +1,6 @@
+clear;
+indir='C:\Users\yunfan\Desktop\evaluation\DAE_VAD'; % 輸入 enhancement data 資料夾
+in_filter='\.wav';    % 副檔名                       
+cleanFile='C:\Users\yunfan\Desktop\Lu-san\Data\Test\clean';      % clean data       
+clean_filter='\.wav';
+dr_sd(indir,in_filter,cleanFile,clean_filter)
