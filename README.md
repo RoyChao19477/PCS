@@ -32,7 +32,7 @@ arXiv: https://arxiv.org/pdf/1703.09452.pdf
 }
 ```
 
-### Wiener filter:
+#### Wiener filter:
 wikipedia: https://en.wikipedia.org/wiki/Wiener_filter
 ```
 @article{brown1997introduction,
@@ -43,7 +43,7 @@ wikipedia: https://en.wikipedia.org/wiki/Wiener_filter
 }
 ```
 
-### Transformer T(c) / T(nc)
+#### Transformer T(c) / T(nc)
 ```
 @inproceedings{fu2020boosting,
   title={Boosting objective scores of a speech enhancement model by metricgan post-processing},
@@ -55,7 +55,7 @@ wikipedia: https://en.wikipedia.org/wiki/Wiener_filter
 }
 ```
 
-### CRNN
+#### CRNN
 ```
 @inproceedings{zhao2018convolutional,
   title={Convolutional-recurrent neural networks for speech enhancement},
@@ -67,7 +67,7 @@ wikipedia: https://en.wikipedia.org/wiki/Wiener_filter
 }
 ```
 
-### MetricGAN+
+#### MetricGAN+
 From SpeechBrain: https://huggingface.co/speechbrain/metricgan-plus-voicebank
 ```
 @article{fu2021metricgan+,
@@ -78,7 +78,7 @@ From SpeechBrain: https://huggingface.co/speechbrain/metricgan-plus-voicebank
 }
 ```
 
-### DPT-FSNet:
+#### DPT-FSNet:
 Reproduced and denoted as DPT*:
 ``
 @article{dang2021dpt,
