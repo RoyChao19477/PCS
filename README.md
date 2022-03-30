@@ -21,7 +21,7 @@ If you find the code useful in your research, please cite:
 ``
 
 ## Reference:
-### SEGAN: 
+#### SEGAN: 
 arXiv: https://arxiv.org/pdf/1703.09452.pdf
 ```
 @article{pascual2017segan,
