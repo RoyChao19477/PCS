@@ -79,12 +79,12 @@ From SpeechBrain: https://huggingface.co/speechbrain/metricgan-plus-voicebank
 ```
 
 #### DPT-FSNet:
-Reproduced and denoted as DPT*:
-``
+Reproduced and denoted as DPT\*
+```
 @article{dang2021dpt,
   title={DPT-FSNet: Dual-path Transformer Based Full-band and Sub-band Fusion Network for Speech Enhancement},
   author={Dang, Feng and Chen, Hangting and Zhang, Pengyuan},
   journal={arXiv preprint arXiv:2104.13002},
   year={2021}
 }
-``
+```
