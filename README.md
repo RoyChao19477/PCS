@@ -15,11 +15,11 @@ The experimental results are as follows:
 <a name="headers"/>
 
 ## Introduction
-PCS is derived based on the critical band importance function and applied to modify the targets of the SE model.  
-It can also be used as a post-processing (PP) method to further sharpen the structure of enhanced speech and suppress residual noise.  
-**This repo is only dedicated to the post processing part.**  
+"PCS is derived based on the critical band importance function and applied to modify the targets of the SE model."  
+"It can also be used as a post-processing (PP) method to further sharpen the structure of enhanced speech and suppress residual noise."  
+More details can be found in here: Link-Here  
+**This repo is only dedicated to the post processing PCS.**  
 <img src="https://github.com/RoyChao19477/PCS/blob/main/imgs/spec.png" height="172">  
-Details can be found in [here]()  
 
 ## PCS-tools
 Post-processing PCS tools can be found at `/PCS`. So you can simply post-process the audio with PCS.  
@@ -36,6 +36,7 @@ If you find the code useful in your research, please cite:
 ## Reference:
 #### SEGAN: 
 arXiv: https://arxiv.org/pdf/1703.09452.pdf
+<!-- 
 ```
 @article{pascual2017segan,
   title={SEGAN: Speech enhancement generative adversarial network},
@@ -44,9 +45,11 @@ arXiv: https://arxiv.org/pdf/1703.09452.pdf
   year={2017}
 }
 ```
+-->
 
 #### Wiener filter:
 wikipedia: https://en.wikipedia.org/wiki/Wiener_filter
+<!-- 
 ```
 @article{brown1997introduction,
   title={Introduction to random signals and applied Kalman filtering: with MATLAB exercises and solutions},
@@ -55,9 +58,11 @@ wikipedia: https://en.wikipedia.org/wiki/Wiener_filter
   year={1997}
 }
 ```
+-->
 
 #### Transformer T(c) / T(nc)
 arXiv: https://arxiv.org/pdf/2006.10296.pdf
+<!-- 
 ```
 @inproceedings{fu2020boosting,
   title={Boosting objective scores of a speech enhancement model by metricgan post-processing},
@@ -68,9 +73,11 @@ arXiv: https://arxiv.org/pdf/2006.10296.pdf
   organization={IEEE}
 }
 ```
+-->
 
 #### CRNN
 arXiv: https://arxiv.org/pdf/1805.00579.pdf
+<!-- 
 ```
 @inproceedings{zhao2018convolutional,
   title={Convolutional-recurrent neural networks for speech enhancement},
@@ -81,10 +88,12 @@ arXiv: https://arxiv.org/pdf/1805.00579.pdf
   organization={IEEE}
 }
 ```
+-->
 
 #### MetricGAN+
 arXiv: https://arxiv.org/pdf/2104.03538.pdf  
 From SpeechBrain: https://huggingface.co/speechbrain/metricgan-plus-voicebank
+<!-- 
 ```
 @article{fu2021metricgan+,
   title={Metricgan+: An improved version of metricgan for speech enhancement},
@@ -93,10 +102,12 @@ From SpeechBrain: https://huggingface.co/speechbrain/metricgan-plus-voicebank
   year={2021}
 }
 ```
+-->
 
 #### DPT-FSNet:
 arXiv: https://arxiv.org/pdf/2104.13002.pdf  
 Reproduced and denoted as DPT\*
+<!-- 
 ```
 @article{dang2021dpt,
   title={DPT-FSNet: Dual-path Transformer Based Full-band and Sub-band Fusion Network for Speech Enhancement},
@@ -105,3 +116,4 @@ Reproduced and denoted as DPT\*
   year={2021}
 }
 ```
+-->
