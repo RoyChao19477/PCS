@@ -79,7 +79,7 @@ arXiv: https://arxiv.org/pdf/1805.00579.pdf
 ```
 
 #### MetricGAN+
-arXiv: https://arxiv.org/pdf/2104.03538.pdf
+arXiv: https://arxiv.org/pdf/2104.03538.pdf  
 From SpeechBrain: https://huggingface.co/speechbrain/metricgan-plus-voicebank
 ```
 @article{fu2021metricgan+,
@@ -91,7 +91,7 @@ From SpeechBrain: https://huggingface.co/speechbrain/metricgan-plus-voicebank
 ```
 
 #### DPT-FSNet:
-arXiv: https://arxiv.org/pdf/2104.13002.pdf
+arXiv: https://arxiv.org/pdf/2104.13002.pdf  
 Reproduced and denoted as DPT\*
 ```
 @article{dang2021dpt,
