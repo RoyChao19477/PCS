@@ -3,8 +3,8 @@ This is a demonstration of post-processing PCS.
 
 #### catalog
 [Introduction](#introduction)  
-[PCStool](#pcs%tool)  
-[SpeechMetricstool](#scoring%tool)  
+[PCStool](#pcs&#tool)  
+[SpeechMetricstool](#scoring&#tool)  
 [Citation](#citation)  
 [References](#reference)  
 
