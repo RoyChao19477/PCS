@@ -1,22 +1,11 @@
 #!/usr/bin/env/python3
 import os
-import sys
-import shutil
 import torch
 import torchaudio
-import speechbrain as sb
 import numpy as np
 import argparse
-import glob
-import json
 import librosa
 import scipy
-from scipy.io import wavfile
-import os
-import pandas as pd
-import requests
-import soundfile as sf
-import time
 
 PCS = np.ones(257)      # Perceptual Contrast Stretching
 PCS[0:3] = 1
@@ -31,35 +20,37 @@ PCS[241:256] = 1.077192982
 
 maxv = np.iinfo(np.int16).max
 
-def Sp_and_phase(signal):        
+
+def Sp_and_phase(signal):
     signal_length = signal.shape[0]
     n_fft = 512
     y_pad = librosa.util.fix_length(signal, signal_length + n_fft // 2)
-    
+
     F = librosa.stft(y_pad, n_fft=512, hop_length=256, win_length=512, window=scipy.signal.hamming)
-    
-    Lp=PCS*np.transpose(np.log1p(np.abs(F)), (1,0))
-    phase=np.angle(F)
-    
-    NLp=np.transpose(Lp, (1,0))
-    
+
+    Lp = PCS * np.transpose(np.log1p(np.abs(F)), (1, 0))
+    phase = np.angle(F)
+
+    NLp = np.transpose(Lp, (1, 0))
+
     return NLp, phase, signal_length
+
 
 def SP_to_wav(mag, phase, signal_length):
     mag = np.expm1(mag)
-    Rec = np.multiply(mag , np.exp(1j*phase))
+    Rec = np.multiply(mag, np.exp(1j*phase))
     result = librosa.istft(Rec,
                            hop_length=256,
                            win_length=512,
                            window=scipy.signal.hamming, length=signal_length)
-    return result  
+    return result
 
-          
+
 def get_filepaths(directory):
     """
-    This function will generate the file names in a directory 
-    tree by walking the tree either top-down or bottom-up. For each 
-    directory in the tree rooted at directory top (including top itself), 
+    This function will generate the file names in a directory
+    tree by walking the tree either top-down or bottom-up. For each
+    directory in the tree rooted at directory top (including top itself),
     it yields a 3-tuple (dirpath, dirnames, filenames).
     """
     file_paths = []  # List which will store all of the full filepaths.
@@ -72,29 +63,30 @@ def get_filepaths(directory):
             file_paths.append(filepath)  # Add it to the list.
 
     return file_paths  # Self-explanatory.
-    
+
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--test_clean_folder', default="", type=str)
-parser.add_argument('--test_noisy_folder', default="", type=str)
+parser.add_argument('--input_folder', default="", type=str)
 parser.add_argument('--output_folder', default="", type=str)
 
 args = parser.parse_args()
 
-######################### validation data #########################
-Test_Clean_path = args.test_clean_folder
-Test_Noisy_paths = get_filepaths(args.test_noisy_folder)
+
+# ---------- validation data ---------- #
+Test_Noisy_paths = get_filepaths(args.input_folder)
 Output_path = args.output_folder
 
+if Output_path[-1] != '/':
+    Output_path = Output_path + '/'
 
 for i in Test_Noisy_paths:
-    noisy_wav,_ = torchaudio.load(i)
-    noisy_LP, Nphase, signal_length= Sp_and_phase(noisy_wav.squeeze().numpy())
-    
+    noisy_wav, _ = torchaudio.load(i)
+    noisy_LP, Nphase, signal_length = Sp_and_phase(noisy_wav.squeeze().numpy())
+
     enhanced_wav = SP_to_wav(noisy_LP, Nphase, signal_length)
     enhanced_wav = enhanced_wav/np.max(abs(enhanced_wav))
-    
+
     torchaudio.save(
         Output_path+i.split('/')[-1],
         torch.unsqueeze(torch.from_numpy(enhanced_wav).type(torch.float32), 0),

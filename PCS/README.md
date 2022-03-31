@@ -1,11 +1,17 @@
 # Post-processing PCS
+You can apply post-processing PCS with this tool.
 
 ## Requirements
 - Python 3
-- PyTorch
+- torch (PyTorch)
 - torchaudio
+- librosa
+- numpy
+- scipy
+- argparse
 
 ## How to use ?
-- You should modify the `test_clean_folder`, `test_noisy_folder`, and `output_folder` in `run.sh` first.
+The audio to be processed should be placed in a folder. (denote as **input_folder**)  
+- You should modify the `--input_folder`, and `--output_folder` in `run.sh` first.
 - Then execute `sh runPCS.sh`
 
