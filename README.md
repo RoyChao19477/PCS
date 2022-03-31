@@ -15,7 +15,6 @@ The experimental results are as follows:
 <a name="headers"/>
 
 ## Introduction
-**This is the post-processing PCS part.**  
 Details can be found in [here]()  
 
 ## PCS-tools
