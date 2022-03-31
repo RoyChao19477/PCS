@@ -1,5 +1,14 @@
-# PCS
+# Perceptual Contrast Stretching on Target Feature for Speech Enhancement
 This is a demonstration of post-processing PCS.
+
+#### catalog
+[Introduction](#introduction)
+[PCStools](#pcstool)
+[SpeechMetrics](#speechmetrics)
+[Citation](#citation)
+[References](#reference)
+
+<a name="headers"/>
 
 ## Introduction
 Introductions here
@@ -44,6 +53,7 @@ wikipedia: https://en.wikipedia.org/wiki/Wiener_filter
 ```
 
 #### Transformer T(c) / T(nc)
+arXiv: https://arxiv.org/pdf/2006.10296.pdf
 ```
 @inproceedings{fu2020boosting,
   title={Boosting objective scores of a speech enhancement model by metricgan post-processing},
@@ -56,6 +66,7 @@ wikipedia: https://en.wikipedia.org/wiki/Wiener_filter
 ```
 
 #### CRNN
+arXiv: https://arxiv.org/pdf/1805.00579.pdf
 ```
 @inproceedings{zhao2018convolutional,
   title={Convolutional-recurrent neural networks for speech enhancement},
@@ -68,6 +79,7 @@ wikipedia: https://en.wikipedia.org/wiki/Wiener_filter
 ```
 
 #### MetricGAN+
+arXiv: https://arxiv.org/pdf/2104.03538.pdf
 From SpeechBrain: https://huggingface.co/speechbrain/metricgan-plus-voicebank
 ```
 @article{fu2021metricgan+,
@@ -79,6 +91,7 @@ From SpeechBrain: https://huggingface.co/speechbrain/metricgan-plus-voicebank
 ```
 
 #### DPT-FSNet:
+arXiv: https://arxiv.org/pdf/2104.13002.pdf
 Reproduced and denoted as DPT\*
 ```
 @article{dang2021dpt,
