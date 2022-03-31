@@ -3,8 +3,8 @@ This is a demonstration of post-processing PCS.
 
 #### catalog
 [Introduction](#introduction)  
-[PCStool](#pcs%20tool)  
-[SpeechMetricstool](#scoring%20tool)  
+[PCStool](#pcs-tool)  
+[SpeechMetricstool](#scoring-tool)  
 [Citation](#citation)  
 [References](#reference)  
 
@@ -17,10 +17,10 @@ Introductions here
 
 <img src="https://github.com/RoyChao19477/PCS/blob/main/imgs/Post-processing%20PCS.png" height="324">
 
-## PCS tool
+## PCS-tool
 Post-processing PCS tool can be found in `/PCS`.
 
-## Scoring tool
+## Scoring-tool
 Speech metric scores were computed with `/speech_metrics`.
 
 ## Citation:
