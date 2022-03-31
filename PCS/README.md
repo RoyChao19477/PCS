@@ -12,6 +12,6 @@ You can apply post-processing PCS with this tool.
 
 ## How to use ?
 The audio to be processed should be placed in a folder. (denote as **input_folder**)  
-- You should modify the `--input_folder`, and `--output_folder` in `run.sh` first.
+- You should modify the `--input_folder`, and `--output_folder` in `runPCS.sh` first.
 - Then execute `sh runPCS.sh`
 
