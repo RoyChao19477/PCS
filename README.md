@@ -31,13 +31,13 @@ Speech metric scores were computed with `/speech_metrics`.
 
 ## Citation:
 If you find the code useful in your research, please cite:
-> Waiting for google scholar ...  
+> Waiting for the article to be included in Google Scholar ...  
+> arXiv : https://arxiv.org/pdf/2203.17152
   
 ``
 @article{}  
 ``
   
-arXiv : https://arxiv.org/pdf/2203.17152
 
 ## Reference:
 #### SEGAN: 
