@@ -18,7 +18,7 @@ The experimental results are as follows:
 "PCS is derived based on the critical band importance function and applied to modify the targets of the SE model."  
 "It can also be used as a post-processing (PP) method to further sharpen the structure of enhanced speech and suppress residual noise."  
   
-More details can be found in here: [**http://arxiv.org/abs/2203.17152 (Preprint; Submitted to INTERSPEECH 2022)**](http://arxiv.org/abs/2203.17152)
+More details can be found in here: [**http://arxiv.org/abs/2203.17152**](http://arxiv.org/abs/2203.17152) (Preprint; Submitted to **INTERSPEECH 2022**)
   
 **This repo is only dedicated to the post processing PCS.**  
 <img src="https://github.com/RoyChao19477/PCS/blob/main/imgs/spec.png" height="172">  
@@ -32,7 +32,7 @@ Speech metric scores were computed with `/speech_metrics`.
 ## Citation:
 If you find the code useful in your research, please cite:
 > Waiting for the article to be included in Google Scholar ...  
-> arXiv (Priprint arXiv; **Submitted to INTERSPEECH 2022**) : https://arxiv.org/pdf/2203.17152
+> arXiv : https://arxiv.org/pdf/2203.17152 (Preprint arXiv; Submitted to **INTERSPEECH 2022**)
   
 ``
 @article{}  
