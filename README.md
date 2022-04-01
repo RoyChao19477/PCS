@@ -34,8 +34,8 @@ If you find the code useful in your research, please cite:
 > Waiting for google scholar ...  
 ``
 @article{}  
-arXiv : https://arxiv.org/pdf/2203.17152
 ``
+arXiv : https://arxiv.org/pdf/2203.17152
 
 ## Reference:
 #### SEGAN: 
