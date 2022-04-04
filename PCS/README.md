@@ -19,11 +19,11 @@ The audio to be processed should be placed in a folder. (denote as **input_folde
 
 ## Citation:
 If you find the code useful in your research, please cite:  
-`` 
-@article{chao2022perceptual,
+```
+@article{chao2022perceptual,  
   title={Perceptual Contrast Stretching on Target Feature for Speech Enhancement},
   author={Chao, Rong and Yu, Cheng and Fu, Szu-Wei and Lu, Xugang and Tsao, Yu},
   journal={arXiv preprint arXiv:2203.17152},
   year={2022}
 }
-`` 
+```
