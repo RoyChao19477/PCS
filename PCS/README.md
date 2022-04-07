@@ -15,6 +15,8 @@ Here, we offer you an easy way to use it.
 The audio to be processed should be placed in a folder. (denote as **input_folder**)  
 - You should modify the `--input_folder` (folder path), and `--output_folder` (folder path) in `runPCS.sh` first.
 - Then execute `sh runPCS.sh`. The audio processed by PP-PCS will be saved to the `--output_folder`.
+  
+> Notice that if the **sample rate** of input audio is not **16000**, please modify the parameter of `torchaudio.save()` in `PCS.py`
 
 
 ## Citation:
