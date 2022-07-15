@@ -1,3 +1,9 @@
+# implement PCS
+In the experiments, we used Short-time Fourier transform (STFT) with n_FFT=512, hop_length=256, windown_length=512, and Hamming window. 
+Additionally, the audio we used in VoiceBank-DEMAND dataset was resampled to a sample rate of 16,000.
+  
+In the scenario mentioned above, the PCS we used is displayed on lines 10 ~ 19 of `PCS.py`
+
 # Post-processing PCS
 
 The proposed PCS can also be used as a post-processing (PP) method.  
