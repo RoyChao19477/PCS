@@ -34,6 +34,7 @@ Speech metric scores were computed with `/speech_metrics`.
 
 ## Online Post-processing PCS Demo
 [https://lojoffy-pcs-online-demo-main-luu0rc.streamlitapp.com/](https://lojoffy-pcs-online-demo-main-luu0rc.streamlitapp.com/)
+<img src="https://github.com/RoyChao19477/PCS_Online_Demo/blob/main/figs/screenshot_1.png" height="384">  
 
 ## Citation:
 If you find the code useful in your research, please cite:  
