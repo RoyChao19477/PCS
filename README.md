@@ -32,13 +32,16 @@ So you can simply post-process the audio with PCS.
 ## Scoring-tools
 Speech metric scores were computed with `/speech_metrics`.
 
+## Online Post-processing PCS Demo
+[https://lojoffy-pcs-online-demo-main-luu0rc.streamlitapp.com/](https://lojoffy-pcs-online-demo-main-luu0rc.streamlitapp.com/)
+
 ## Citation:
 If you find the code useful in your research, please cite:  
 ```
 @article{chao2022perceptual,
   title={Perceptual Contrast Stretching on Target Feature for Speech Enhancement},
   author={Chao, Rong and Yu, Cheng and Fu, Szu-Wei and Lu, Xugang and Tsao, Yu},
-  journal={arXiv preprint arXiv:2203.17152},
+  journal={Proc. of INTERSPEECH},
   year={2022}
 }
 ```
