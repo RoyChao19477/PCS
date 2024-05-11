@@ -11,7 +11,9 @@
 <a name="headers"/>
 
 ## **Update (May 11, 2024)**: 
-> For Speech Enhancement Systems utilizing a 400-sample window frame in the Short-Time Fourier Transform (STFT), we recommend using **PCS400** instead of PCS. This adjustment helps prevent distortion due to mismatching.
+<span style="color: orange;">
+For Speech Enhancement Systems utilizing a 400-sample window frame in the Short-Time Fourier Transform (STFT), we recommend using **PCS400** instead of PCS. This adjustment helps prevent distortion due to mismatching.
+</span>
 
 ## Introduction
 "PCS is derived based on the critical band importance function and applied to modify the targets of the SE model."  
