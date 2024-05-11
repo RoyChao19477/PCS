@@ -10,9 +10,7 @@
 
 
 ## **Update (May 11, 2024)**: 
-<span style="color: orange;">
 For Speech Enhancement Systems utilizing a 400-sample window frame in the Short-Time Fourier Transform (STFT), we recommend using **PCS400** instead of PCS. This adjustment helps prevent distortion due to mismatching.
-</span>
 
 <a name="headers"/>
 ## Introduction
